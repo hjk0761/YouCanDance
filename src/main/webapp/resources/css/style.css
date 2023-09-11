@@ -1,0 +1,38 @@
+*{
+	/*background-color: black;
+	color: white;*/
+	border-style: none;
+	text-align: center;
+	/*white-space: pre-line;*/
+}
+
+a{
+	text-decoration: none;
+	color: black;
+}
+ul{
+	padding-left: 0px;
+}
+table{
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+	border-collapse: collapse;
+	table-layout: fixed;
+}
+table:hover{
+	overflow:visible;
+}
+th, td{
+	border-bottom: 1px solid black;
+	border-left: 1px solid black;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+}
+th:hover, td:hover{
+	overflow:visible;
+}
+th:first-child, td:first-child{
+	border-left: none;
+}
